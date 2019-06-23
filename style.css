@@ -1,0 +1,86 @@
+body
+{
+  margin: 0;
+  font-family: sans-serif;
+}
+.preloader{
+  background-color:#77b3d4;
+  height: 100vh;
+  top:0;
+  width: 100%;
+  position: absolute;
+}
+
+.h1
+{
+  font-size: 24px;
+  top:520px;
+ left:640px;
+position: absolute;
+color: white;
+}
+.cloud1, .cloud2, .cloud3
+{
+  width:200px;
+  height:100px;
+  animation: cloud 2s ease infinite;
+
+}
+@keyframes cloud {
+  0%{
+    right:0;
+  }
+  100%
+  {
+      left:2;
+
+  }
+}
+.cloud1
+{
+  right:150%;
+  top:100px;
+  position: absolute;
+    animation: cloud 3s ease infinite;
+
+}
+.cloud2
+{
+  right:150%;
+top:400px;
+  position: absolute;
+    animation: cloud 3s ease infinite 1s;
+}
+.cloud3
+{
+  right:150%;
+    top:550px;
+  position: absolute;
+    animation: cloud 3s ease infinite 2s;
+}
+
+.airplane
+{
+    width:300px;
+    height:300px;
+    top:200px;
+   left:600px;
+   position: absolute;
+   animation: plane 1s ease infinite;
+   animation-direction: alternate;
+}
+@keyframes plane {
+  0%
+  {
+        top:200px;
+  }
+  100%
+  {
+    top: 150px;
+  }
+}
+.load-end
+{
+  opacity: 0;
+  pointer-events: none;
+}
