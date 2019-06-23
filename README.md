@@ -1,2 +1,2 @@
 # Pre-Loader
-Preloader works on opening process of website.
+Cool Preloader while loading website.
