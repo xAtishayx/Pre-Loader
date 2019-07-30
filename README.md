@@ -1,2 +1,2 @@
 # Pre-Loader
-Cool Preloader while loading website.
+A preloader stylesheet written in CSS.
